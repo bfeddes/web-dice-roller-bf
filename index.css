@@ -1,16 +1,11 @@
-.centerall { 
-    margin-left: 25%;
-    width: 50%;
-    border: 2px solid black;
-    padding: 10px;}
 body {background-color: azure;}
-.game { margin-left: 44%; text-align:left; margin-top: 0.5%; font-weight: bold;}
+.game { margin-left: 46%; text-align:left; margin-top: 0.5%; font-weight: bold;}
 .dicestyle { text-align: right; }
 .sumstyle { margin-left: 10px; text-align: right; }
 .winningstyle { display: inline-block;}
-.diceimg { margin-left: -12%; height: 3%; width: 3%;}
+.diceimg { margin-left: -10%; height: 3%; width: 3%;}
 .cashoutimg { height: 2%; width: 2%;}
-.cashimg { margin-left: -9%; margin-right: 13px; height: 3%; width: 3%;}
+.cashimg { margin-left: -7.5%; margin-right: 13px; height: 3%; width: 3%;}
 .instructions { margin-left: 30%; border-style:solid; border-width: 2px; color:black; text-align: center; 
     background-color:blanchedalmond; width: 40%; }
 ol { display: inline-block; text-align: left; }
