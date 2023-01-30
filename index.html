@@ -14,18 +14,18 @@
         <link rel="stylesheet" href="index.css">
         <script src="diceroller.js"></script>
     </head>
-    <body>
+    <body onload="printStart()">
         <div class="instructions">
             <h3>Instructions:</h3>
             <ol>
                 <li>This is a game all about risk.</li>
                 <li>After each roll, you will be shown the sum of your two die.</li>
-                <li>If you choose to roll again, if the sum of the two die are greater than your last
+                <li>If you choose to roll again, if the sum of the two die is greater than your last
                 roll, your money will double. HOWEVER, if the sum of the two die is lower, you lose
                 everything.</li>
                 <li>You can cash out at any time. Once you cash out, the game is over.</li>
                 <li>You start with $250</li>
-                <li>To begin, simply press enter to roll the dice</li>
+                <li>To begin, simply press enter to roll the dice.</li>
             </ol>
         </div>
         <div class="game">
@@ -37,7 +37,7 @@
         Roll 2: <input id="dice2" class="dicestyle" type="text" value="" size="5" disabled><br><br>
         Sum: <input id="yourRoll" class="sumstyle" type="text" size="5" disabled><br><br>
         <img class="cashimg" src="cash.png">
-        <p class="winningstyle">Winnings:</p> <input id="money" class="dicestyle" type="text" 
+        <p class="winningstyle">Balance:</p> <input id="money" class="dicestyle" type="text" 
         size="5" disabled><br><br>
         </div>
     </body>
