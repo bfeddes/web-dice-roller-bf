@@ -1,1 +1,11 @@
-input { text-align:right; }
+body {background-color: azure;}
+.game { margin-left: 12%; text-align:left; margin-top: 0.5%; font-weight: bold;}
+.dicestyle { text-align: right; }
+.sumstyle { margin-left: 10px; text-align: right; }
+.winningstyle { display: inline-block;}
+.diceimg { margin-left: -2%; height: 3%; width: 3%;}
+.cashoutimg { height: 2%; width: 2%;}
+.cashimg { margin-left: -5.90%; height: 3%; width: 3%;}
+.instructions { border-style:solid; border-width: 2px; color:black; text-align: center; 
+    background-color:blanchedalmond; width: 40%; }
+ol { display: inline-block; text-align: left; }

@@ -8,21 +8,37 @@
     <head>
         <meta charset="utf-8">
         <title>Web Dice Roller</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" 
+         crossorigin="anonymous">
         <link rel="stylesheet" href="index.css">
         <script src="diceroller.js"></script>
     </head>
     <body>
-        <button type="button" onclick="RollSixSidedDice()">Roll Dice</button><br><br>
-        Six Sided Dice: <input id="dice" type="text" value="" size="5" disabled><br><br>
-
-        X: <input id="xID" type="text" value="1" size="5"><br>
-        Y: <input id="yID" type="text" value="1" size="5"><br>
-        <button type="button" onclick="DoCalculations()">Do Calculations</button><br><br>
-
-        Math Results:<p id="mathResultsID"></p>
-
-        <a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">Input Types (W3C)</a><br>
-        Number: <input type="number" name="quantity" min="0" max="9"><br>
-        Date: <input type="date" name="bday"><br>
+        <div class="instructions">
+            <h3>Instructions:</h3>
+            <ol>
+                <li>This is a game all about risk.</li>
+                <li>After each roll, you will be shown the sum of your two die.</li>
+                <li>If you choose to roll again, if the sum of the two die are greater than your last
+                roll, your money will double. HOWEVER, if the sum of the two die is lower, you lose
+                everything.</li>
+                <li>You can cash out at any time. Once you cash out, the game is over.</li>
+                <li>You start with $250</li>
+                <li>To begin, simply press enter to roll the dice</li>
+            </ol>
+        </div>
+        <div class="game">
+        <img class="diceimg" src="dice.png">
+        <button type="button" autofocus onclick="RollSixSidedDice()" class="btn btn-dark">Roll Dice</button>
+        <img class="cashoutimg" src="cashout.png">
+        <button type="button" onclick="cashOut()" class="btn btn-success">Cash Out</button><br><br>
+        Roll 1: <input id="dice" class="dicestyle" type="text" value="" size="5" disabled><br><br>
+        Roll 2: <input id="dice2" class="dicestyle" type="text" value="" size="5" disabled><br><br>
+        Sum: <input id="yourRoll" class="sumstyle" type="text" size="5" disabled><br><br>
+        <img class="cashimg" src="cash.png">
+        <p class="winningstyle">Winnings:</p> <input id="money" class="dicestyle" type="text" 
+        size="5" disabled><br><br>
+        </div>
     </body>
 </html>
