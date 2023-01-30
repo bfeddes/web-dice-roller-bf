@@ -3,9 +3,9 @@ body {background-color: azure;}
 .dicestyle { text-align: right; }
 .sumstyle { margin-left: 10px; text-align: right; }
 .winningstyle { display: inline-block;}
-.diceimg { margin-left: -9%; height: 3%; width: 3%;}
+.diceimg { margin-left: -4%; height: 3%; width: 3%;}
 .cashoutimg { height: 2%; width: 2%;}
-.cashimg { margin-left: -5.90%; height: 3%; width: 3%;}
+.cashimg { margin-left: -5.90%; margin-right: 13px; height: 3%; width: 3%;}
 .instructions { border-style:solid; border-width: 2px; color:black; text-align: center; 
     background-color:blanchedalmond; width: 40%; }
 ol { display: inline-block; text-align: left; }
