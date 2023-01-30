@@ -15,7 +15,7 @@ function printStart() {
 }
 
 // Dice roll function
-function RollSixSidedDice() {
+function rollSixSidedDice() {
     var roll1 = document.getElementById("dice").value = Math.floor(Math.random()*10) + 1;
     var roll2 = document.getElementById("dice2").value = Math.floor(Math.random()*10) + 1;
     var currentRole = document.getElementById("yourRoll").value = roll1 + roll2;
