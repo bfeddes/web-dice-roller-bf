@@ -5,7 +5,7 @@ body {background-color: azure;}
 .winningstyle { display: inline-block;}
 .diceimg { margin-left: -10%; height: 3%; width: 3%;}
 .cashoutimg { height: 2%; width: 2%;}
-.cashimg { margin-left: -7.5%; margin-right: 13px; height: 3%; width: 3%;}
+.cashimg { margin-left: -6%; margin-right: 13px; height: 3%; width: 3%;}
 .instructions { margin-left: 30%; border-style:solid; border-width: 2px; color:black; text-align: center; 
     background-color:blanchedalmond; width: 40%; }
 ol { display: inline-block; text-align: left; }
